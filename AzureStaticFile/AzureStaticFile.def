@@ -1,0 +1,6 @@
+LIBRARY "AzureStaticFile"
+DESCRIPTION	"IIS ISAPI extension to read static files from Azure storage"
+
+EXPORTS
+	GetExtensionVersion
+	HttpExtensionProc
